@@ -100,7 +100,7 @@ export default function Home() {
             color: fgMuted,
           }}
         >
-          bridge dev3pack · us → mx · devnet
+          remesas · efectivo · solana devnet
         </p>
 
         <h1
@@ -126,8 +126,8 @@ export default function Home() {
             maxWidth: 520,
           }}
         >
-          Envía USDC desde EE.UU. Tu familia retira efectivo en México.
-          Sin banco, fee 0.25% on-chain.
+          Remesas con retiro en efectivo en comercios locales, protegidas por un
+          escrow en Solana. Sin banco, fee 0.25% on-chain.
         </p>
 
         <div
@@ -194,8 +194,8 @@ export default function Home() {
               en escrow Anchor.
             </li>
             <li>
-              <strong style={{ color: fg }}>Avisa</strong> — el remitente aprueba al receptor
-              cuando apruebas la identidad.
+              <strong style={{ color: fg }}>Aprueba</strong> — El remitente aprueba la identidad del
+              receptor; desde ahí la reserva ya no se puede editar.
             </li>
             <li>
               <strong style={{ color: fg }}>Retira</strong> — Comercio aliado liquida con Blink;

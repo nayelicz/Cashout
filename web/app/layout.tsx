@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     template: "%s · Cashout",
   },
   description:
-    "Mesa LATAM por turnos: escrow + whitelist de comercios + tesoro/fees definidos en contrato Anchor; frontend Next.js con Solana Actions (devnet).",
+    "Cashout: remesas con retiro en efectivo en comercios locales, protegidas por un escrow en Solana (devnet).",
   keywords: ["Solana", "Anchor", "remesas", "Actions", "Blinks", "devnet", "LATAM"],
   openGraph: {
     type: "website",

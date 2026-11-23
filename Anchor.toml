@@ -5,11 +5,11 @@ package_manager = "yarn"
 resolution = true
 skip-lint = false
 
-[programs.localnet]
-remesa_liquidez = "J81oZe4fJT4C1pkxx9F5uXhFmDT1iDUw1FhEY8LWwhe3"
-
 [programs.devnet]
 remesa_liquidez = "J81oZe4fJT4C1pkxx9F5uXhFmDT1iDUw1FhEY8LWwhe3"
+
+[programs.localnet]
+remesa_liquidez = "7nrJPFyaGoRgDpGi4hakZ2sX9smCpoTUnLEhm4oxgQrX"
 
 [registry]
 url = "https://api.apr.dev"

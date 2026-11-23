@@ -7,7 +7,7 @@ pub mod state;
 
 pub use instructions::*;
 
-declare_id!("J81oZe4fJT4C1pkxx9F5uXhFmDT1iDUw1FhEY8LWwhe3");
+declare_id!("7nrJPFyaGoRgDpGi4hakZ2sX9smCpoTUnLEhm4oxgQrX");
 
 #[program]
 pub mod remesa_liquidez {

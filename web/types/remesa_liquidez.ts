@@ -5,7 +5,7 @@
  * IDL can be found at `target/idl/remesa_liquidez.json`.
  */
 export type RemesaLiquidez = {
-  "address": "J81oZe4fJT4C1pkxx9F5uXhFmDT1iDUw1FhEY8LWwhe3",
+  "address": "7nrJPFyaGoRgDpGi4hakZ2sX9smCpoTUnLEhm4oxgQrX",
   "metadata": {
     "name": "remesaLiquidez",
     "version": "0.1.0",

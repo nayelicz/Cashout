@@ -44,9 +44,9 @@ const USDC_DEVNET = new PublicKey(
 
 const DEFAULT_EXPIRY_SECONDS = 60 * 60 * 24 * 3; // 3 días
 
-const accent = "#5eebc4";
-const surface = "#10141f";
-const border = "#232937";
+const accent = "#14F195";
+const surface = "#151223";
+const border = "#2a2340";
 const fg = "#e9ecf3";
 const fgMuted = "rgba(233,236,243,0.58)";
 const errorColor = "#ff6b6b";
@@ -297,7 +297,7 @@ export function ReserveForm({ onReserved }: Props) {
         style={{
           padding: "12px 20px",
           background: isLoading ? `${accent}55` : connected ? accent : `${accent}33`,
-          color: "#0b0d12",
+          color: "#0c0a14",
           border: "none",
           borderRadius: 8,
           fontSize: 14,
@@ -320,7 +320,7 @@ export function ReserveForm({ onReserved }: Props) {
         <div
           style={{
             padding: "14px 16px",
-            background: "#0d1018",
+            background: "#100d1b",
             border: `1px solid ${accent}44`,
             borderRadius: 8,
             display: "flex",

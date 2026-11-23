@@ -12,9 +12,9 @@
 import { useWallet } from "@solana/wallet-adapter-react";
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 
-const accent = "#5eebc4";
-const surface = "#10141f";
-const border = "#232937";
+const accent = "#14F195";
+const surface = "#151223";
+const border = "#2a2340";
 const fgMuted = "rgba(233,236,243,0.58)";
 
 function truncatePubkey(key: string) {
@@ -45,7 +45,7 @@ export function ConnectButton() {
             display: "inline-block",
             width: 8,
             height: 8,
-            background: accent,
+            background: "linear-gradient(90deg, #9945FF 0%, #14F195 100%)",
             borderRadius: "50%",
             animation: "pulse 1.2s ease-in-out infinite",
           }}
@@ -77,7 +77,7 @@ export function ConnectButton() {
               display: "inline-block",
               width: 7,
               height: 7,
-              background: accent,
+              background: "linear-gradient(90deg, #9945FF 0%, #14F195 100%)",
               borderRadius: "50%",
             }}
           />
@@ -110,8 +110,8 @@ export function ConnectButton() {
   return (
     <WalletMultiButton
       style={{
-        background: accent,
-        color: "#0b0d12",
+        background: "linear-gradient(90deg, #9945FF 0%, #14F195 100%)",
+        color: "#0c0a14",
         border: "none",
         borderRadius: 8,
         padding: "10px 20px",

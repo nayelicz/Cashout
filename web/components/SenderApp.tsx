@@ -17,9 +17,9 @@ import { MyReservations } from "./MyReservations";
 import { useState } from "react";
 import { useWallet } from "@solana/wallet-adapter-react";
 
-const accent = "#5eebc4";
-const surface = "#10141f";
-const border = "#232937";
+const accent = "#14F195";
+const surface = "#151223";
+const border = "#2a2340";
 const fgMuted = "rgba(233,236,243,0.58)";
 
 interface ReservationState {

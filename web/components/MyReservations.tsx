@@ -23,9 +23,9 @@ import type { RemesaLiquidez } from "@/types/remesa_liquidez";
 import { friendlyError } from "@/lib/errors";
 import { findReservationPda, findVaultPda } from "@/lib/pdas";
 
-const accent = "#5eebc4";
-const surface = "#10141f";
-const border = "#232937";
+const accent = "#14F195";
+const surface = "#151223";
+const border = "#2a2340";
 const fg = "#e9ecf3";
 const fgMuted = "rgba(233,236,243,0.58)";
 const errorColor = "#ff6b6b";
@@ -272,7 +272,7 @@ function btn(active: boolean): React.CSSProperties {
     fontSize: 12,
     fontFamily: mono,
     background: active ? accent : "transparent",
-    color: active ? "#0a0d14" : accent,
+    color: active ? "#0c0a14" : accent,
     border: `1px solid ${accent}`,
     borderRadius: 6,
     cursor: "pointer",

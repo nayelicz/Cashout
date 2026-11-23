@@ -40,7 +40,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           fontFamily:
             "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif",
           margin: 0,
-          background: "#0b0d12",
+          background: "#0c0a14",
           color: "#e7e9ee",
         }}
       >

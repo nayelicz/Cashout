@@ -12,8 +12,8 @@ const mono = IBM_Plex_Mono({ subsets: ["latin"], weight: ["400", "600"] });
 
 const fg = "#e9ecf3";
 const fgMuted = "rgba(233,236,243,0.58)";
-const border = "#232937";
-const accent = "#5eebc4";
+const border = "#2a2340";
+const accent = "#14F195";
 
 export default function MerchantPage() {
   return (
@@ -58,7 +58,7 @@ export default function MerchantPage() {
           padding: "24px",
           border: `1px solid ${border}`,
           borderRadius: 12,
-          background: "#10141f",
+          background: "#151223",
         }}
       >
         <MerchantCashout />

@@ -15,9 +15,9 @@ import { Transaction } from "@solana/web3.js";
 import { useCallback, useState } from "react";
 import { ConnectButton } from "./ConnectButton";
 
-const accent = "#5eebc4";
-const surface = "#10141f";
-const border = "#232937";
+const accent = "#14F195";
+const surface = "#151223";
+const border = "#2a2340";
 const fg = "#e9ecf3";
 const fgMuted = "rgba(233,236,243,0.58)";
 const errorColor = "#ff6b6b";
@@ -156,7 +156,7 @@ export function MerchantCashout() {
             : canSubmit && !isLoading
             ? accent
             : `${accent}33`,
-          color: isDone ? accent : "#0b0d12",
+          color: isDone ? accent : "#0c0a14",
           border: isDone ? `1px solid ${accent}44` : "none",
           borderRadius: 8,
           fontSize: 14,

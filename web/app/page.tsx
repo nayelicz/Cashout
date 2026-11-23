@@ -25,14 +25,14 @@ const programId =
 
 const fg = "#e9ecf3";
 const fgMuted = "rgba(233,236,243,0.58)";
-const border = "#232937";
-const surface = "#10141f";
-const accent = "#5eebc4";
+const border = "#2a2340";
+const surface = "#151223";
+const accent = "#14F195";
 
 const codeBlock: React.CSSProperties = {
   margin: 0,
   padding: "14px 16px",
-  background: "#0d1018",
+  background: "#100d1b",
   borderRadius: 8,
   border: `1px solid ${border}`,
   fontFamily: mono.style.fontFamily,
@@ -57,7 +57,7 @@ function SectionTitle({ n, title }: { n: string; title: string }) {
         color: fgMuted,
       }}
     >
-      <span style={{ color: accent }}>{n}</span>
+      <span style={{ color: "#AB6BFF" }}>{n}</span>
       <span>{title}</span>
     </div>
   );
@@ -74,7 +74,7 @@ export default function Home() {
           top: 0,
           bottom: 0,
           width: 5,
-          background: `linear-gradient(180deg, ${accent} 0%, rgba(94,235,196,0.18) 45%, rgba(94,235,196,0.08) 100%)`,
+          background: `linear-gradient(180deg, ${accent} 0%, rgba(20,241,149,0.18) 45%, rgba(20,241,149,0.08) 100%)`,
           pointerEvents: "none",
         }}
       />
@@ -113,7 +113,17 @@ export default function Home() {
             color: fg,
           }}
         >
-          Cash<span style={{ color: accent }}>out</span>
+          Cash
+          <span
+            style={{
+              background: "linear-gradient(90deg, #9945FF 0%, #14F195 100%)",
+              WebkitBackgroundClip: "text",
+              backgroundClip: "text",
+              color: "transparent",
+            }}
+          >
+            out
+          </span>
         </h1>
 
         <p
@@ -142,8 +152,8 @@ export default function Home() {
             href="#sender-app"
             style={{
               padding: "12px 20px",
-              background: accent,
-              color: "#0b0d12",
+              background: "linear-gradient(90deg, #9945FF 0%, #14F195 100%)",
+              color: "#0c0a14",
               borderRadius: 8,
               fontSize: 14,
               fontWeight: 600,

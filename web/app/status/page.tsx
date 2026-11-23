@@ -10,9 +10,9 @@ const programId =
 
 const fg = "#e9ecf3";
 const fgMuted = "rgba(233,236,243,0.58)";
-const border = "#232937";
-const accent = "#5eebc4";
-const surface = "#10141f";
+const border = "#2a2340";
+const accent = "#14F195";
+const surface = "#151223";
 
 const backendUrl =
   process.env.RENDER_BACKEND_URL ?? "https://remesa-tia-backend.onrender.com";
@@ -192,7 +192,7 @@ function StatusRow({
   detail: string;
   href: string;
 }) {
-  const dot = status === "live" ? "#5eebc4" : "#ffb347";
+  const dot = status === "live" ? "#14F195" : "#ffb347";
   return (
     <a
       href={href}

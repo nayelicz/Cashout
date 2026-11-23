@@ -5,7 +5,7 @@
 
 | | |
 |---|---|
-| **Program ID (Devnet)** | `J81oZe4fJT4C1pkxx9F5uXhFmDT1iDUw1FhEY8LWwhe3` ← *actualizar tras el despliegue* · [Explorer](https://explorer.solana.com/address/J81oZe4fJT4C1pkxx9F5uXhFmDT1iDUw1FhEY8LWwhe3?cluster=devnet) |
+| **Program ID (Devnet)** | `7nrJPFyaGoRgDpGi4hakZ2sX9smCpoTUnLEhm4oxgQrX` · [Explorer](https://explorer.solana.com/address/7nrJPFyaGoRgDpGi4hakZ2sX9smCpoTUnLEhm4oxgQrX?cluster=devnet) |
 | **Nombre para el certificado** | `<Nombre completo>` |
 | **Correo de registro** | `<correo usado en el registro>` |
 | **Versión de partida** | Proyecto base (`nayelicz/remesa-liquidez`, rama `feature/tia-updates`) |
@@ -170,8 +170,8 @@ yarn e2e:devnet    # mint → reserva → verificación → cobro, imprime las f
 
 | Operación | Firma |
 |---|---|
-| Deploy del programa | `<firma>` |
-| `initialize_config` | `<firma>` |
+| Deploy del programa | [`CshY4sQQ…Mazbe`](https://explorer.solana.com/tx/CshY4sQQUN1AajzMmYTG7GZeetrkCpF7eWxebKXwzJvsBsLo12MK8gvKMCWwyYfzsfQVJ4p2m6XwGJfWn9Mazbe?cluster=devnet) |
+| `initialize_config` | [`5KiNDVR5…jqpWU`](https://explorer.solana.com/tx/5KiNDVR5AwASuxXjUvhwdFCCSrUg3inLyYio9tdivuSXFAg8XGUhx5mrNh7MyE1vX55h9Rfrs1hnyxY9aV6jqpWU?cluster=devnet) |
 | `register_merchant` | `<firma>` |
 | `initialize_reservation` | `<firma>` |
 | `update_reservation` | `<firma>` |

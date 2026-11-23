@@ -145,9 +145,13 @@ cd web && npm install --legacy-peer-deps && npm run dev
 # http://localhost:3000  (Phantom/Solflare en Devnet)
 ```
 
-### e) Flujo completo por script (opcional)
+### e) Flujos por script (opcional)
 ```bash
 yarn e2e:devnet    # mint → reserva → verificación → cobro, imprime las firmas
+
+# Baja condicionada: reserva con vencimiento de 15 s, rechazo WaitUntilExpiration
+# antes de vencer y cancel_reservation exitoso después (reembolso + cierre)
+DEMO_MINT=<mint> yarn demo-cancel:devnet
 ```
 
 ---

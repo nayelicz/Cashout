@@ -1,15 +1,16 @@
 {
   "license": "ISC",
-    "scripts": {
-        "lint:fix": "prettier */*.js \"*/**/*{.js,.ts}\" -w",
-        "lint": "prettier */*.js \"*/**/*{.js,.ts}\" --check",
-        "anchor:sync-web": "anchor build && node web/scripts/sync-anchor-artifacts.cjs",
-        "web:build:vercel": "npm run anchor:sync-web && cd web && npm run vercel-build",
-        "register-merchants:devnet": "SOLANA_CLUSTER=devnet node_modules/.bin/ts-node scripts/register-merchants-devnet.ts",
-        "e2e:devnet": "SOLANA_CLUSTER=devnet node_modules/.bin/ts-node scripts/e2e-devnet-remittance.ts",
-        "demo-token:devnet": "SOLANA_CLUSTER=devnet node_modules/.bin/ts-node scripts/demo-token-devnet.ts",
-        "sync-env": "cp .env ./web/.env.local"
-    },
+  "scripts": {
+    "lint:fix": "prettier */*.js \"*/**/*{.js,.ts}\" -w",
+    "lint": "prettier */*.js \"*/**/*{.js,.ts}\" --check",
+    "anchor:sync-web": "anchor build && node web/scripts/sync-anchor-artifacts.cjs",
+    "web:build:vercel": "npm run anchor:sync-web && cd web && npm run vercel-build",
+    "register-merchants:devnet": "SOLANA_CLUSTER=devnet node_modules/.bin/ts-node scripts/register-merchants-devnet.ts",
+    "e2e:devnet": "SOLANA_CLUSTER=devnet node_modules/.bin/ts-node scripts/e2e-devnet-remittance.ts",
+    "demo-token:devnet": "SOLANA_CLUSTER=devnet node_modules/.bin/ts-node scripts/demo-token-devnet.ts",
+    "sync-env": "cp .env ./web/.env.local",
+    "demo-cancel:devnet": "SOLANA_CLUSTER=devnet node_modules/.bin/ts-node scripts/demo-cancel-devnet.ts"
+  },
   "dependencies": {
     "@coral-xyz/anchor": "^0.32.1",
     "@solana/spl-token": "^0.4.9"

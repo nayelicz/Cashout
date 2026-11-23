@@ -8,8 +8,9 @@ sh -c "$(curl -sSfL https://release.anza.xyz/v3.0.10/install)"
 echo 'export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"' >> ~/.bashrc
 export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
 
-cargo install --git https://github.com/coral-xyz/anchor avm --force
-avm install 0.32.1 && avm use 0.32.1
+# Se compila desde crates.io: los binarios precompilados de avm requieren GLIBC 2.39
+# y la imagen bookworm trae 2.36.
+cargo install anchor-cli --version 0.32.1 --force
 
 command -v yarn >/dev/null || npm install -g yarn
 yarn install

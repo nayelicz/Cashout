@@ -104,7 +104,7 @@ docs/evidencias/                Capturas y salida de pruebas
 ### Requisitos
 - Rust (el `rust-toolchain.toml` fija 1.89.0 para el host)
 - Solana CLI **Agave 3.0.x** (platform-tools v1.51)
-- Anchor CLI **0.32.1** (`avm install 0.32.1`)
+- Anchor CLI **0.32.1** (`cargo install anchor-cli --version 0.32.1`)
 - Node 20+ y Yarn
 
 **Codespaces:** abre el repo en un Codespace; `.devcontainer/setup.sh` instala todo.

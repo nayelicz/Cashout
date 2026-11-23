@@ -1,0 +1,17 @@
+$ DEMO_MINT=CtKs6xK7UCP9tMqA2EfVcyYbDhofwL3u6vwJgkjk6pbL yarn demo-cancel:devnet
+[cancel] reserva creada (vence en 15s): GwE1JwnWuovJGo7Q29QXXbZMkWLMAPY9h3vcfYa9tcAN
+[cancel] initialize_reservation https://explorer.solana.com/tx/P7Hi9d3vZwuX5ECaNjjpv1D4B2xD9BF9RWVKit4aVh6Unb3LZcTMwxu2xdWFPAVaqXcjkXWDjPfkdAQyyUJVET8?cluster=devnet
+[cancel] rechazo antes del vencimiento: WaitUntilExpiration ✓
+[cancel] esperando 20s al vencimiento…
+[cancel] cancel_reservation https://explorer.solana.com/tx/3DYC2xiCBsvohQsqKcnH4mj9AjPvpxcPbBXikRX1Qgnv5P75emNjxkD6W6RRGGW4DV8PBa6M5ZUJojsnoZBNbGES?cluster=devnet
+[cancel] cuenta de la reserva cerrada: sí ✓
+
+Firma cancel_reservation: 3DYC2xiCBsvohQsqKcnH4mj9AjPvpxcPbBXikRX1Qgnv5P75emNjxkD6W6RRGGW4DV8PBa6M5ZUJojsnoZBNbGES
+Done in 33.51s.
+
+$ solana transaction-history Feun9GyBvPuGNk5cqkkaSDEsHxXA5VDrraPpkZPGABS --url devnet
+4HiGKq9Yy9UPx6fmZHyBDWqAf6towaHVrVXWeH7jVaSqJfj2WRbdnFJLgGUrGMMc35FryJVUes9Fg4mFMLVf8krd   ← validate_cashout
+AtVksme7BPZhkNYUkHKWL6pvdy2WtisBofFS8HF7xY3FHLGNBkQGnW7LU9aCkkk3JF2PbEjTG7FUT2UxgAmpY3z   ← mark_verified
+4Ejj38apvg2AD7tQ7EKaCJSSfAiMb5misMujjiGAFkSt8iPVxT5oN6TJ8xkxHYmRvHpQEsokCCyhhZ68R8oWEdWE   ← update_reservation
+5o3aLSRaC5QaXjX5w9oUcZpMTCcCZvpD5hw133S7iqjuhfc54NaimeFnLuLejY9NMHMLQWkJxTpT4mMEDjUHKfVn   ← initialize_reservation
+4 transactions found

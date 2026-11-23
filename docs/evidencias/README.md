@@ -1,16 +1,14 @@
-# Evidencias
+# Evidencias (Devnet)
 
-Coloca aquí las capturas de la demo (frontend en local o Codespaces conectado a **Devnet**):
+Program ID: `7nrJPFyaGoRgDpGi4hakZ2sX9smCpoTUnLEhm4oxgQrX`
 
-| Archivo sugerido | Qué muestra |
+| Archivo | Qué muestra |
 |---|---|
-| `01-wallet-conectada.png` | Wallet en Devnet conectada al frontend |
-| `02-reserva-creada.png` | `initialize_reservation` confirmada + enlace a Explorer |
-| `03-mis-reservas.png` | Lectura de cuentas: lista "Mis reservas" |
-| `04-extender.png` | `update_reservation` (Extender 1 día) confirmada |
-| `05-error-cancelar.png` | Rechazo `WaitUntilExpiration` al cancelar antes de vencer |
-| `06-verificada-bloqueada.png` | Rechazo `ReservationLocked` al editar ya verificada |
-| `07-cobro-comercio.png` | `validate_cashout` desde `/merchant` |
+| `00-portada.png` | Frontend corriendo en Codespaces, conectado al programa en Devnet |
+| `02-reserva-creada.png` | `initialize_reservation` firmado con Phantom (wallet Remitente) y confirmado |
+| `08-cobro-comercio.png` | `validate_cashout` desde `/merchant`: 99.75 % al comercio, 0.25 % a tesorería |
+| `token-de-prueba.png` | `yarn demo-token:devnet`: token SPL de prueba repartido a remitente y comercio |
+| `cancelacion-devnet.txt` | Baja condicionada: rechazo `WaitUntilExpiration` y `cancel_reservation` exitoso; historial completo de la reserva |
+| `pruebas-localnet.txt` | Salida de la suite de 24 pruebas |
 
-Las firmas de transacción van en la tabla "Transacciones verificables" del README principal.
-`pruebas-localnet.txt` contiene la salida de la suite de pruebas.
+Las firmas de todas las transacciones están en la sección 8 del README principal.

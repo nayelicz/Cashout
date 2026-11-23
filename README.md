@@ -187,6 +187,14 @@ Formato de enlace: `https://explorer.solana.com/tx/<firma>?cluster=devnet`
 
 Salida de la suite de pruebas: [`docs/evidencias/pruebas-localnet.txt`](docs/evidencias/pruebas-localnet.txt)
 
+### Capturas
+
+| Reserva creada (remitente) | Cobro (comercio) |
+|---|---|
+| ![Reserva creada](docs/evidencias/02-reserva-creada.png) | ![Cobro del comercio](docs/evidencias/08-cobro-comercio.png) |
+
+Baja condicionada en Devnet: [`docs/evidencias/cancelacion-devnet.txt`](docs/evidencias/cancelacion-devnet.txt) · Más capturas en [`docs/evidencias/`](docs/evidencias/)
+
 ---
 
 ## 9. Notas técnicas

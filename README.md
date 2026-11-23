@@ -174,7 +174,7 @@ yarn e2e:devnet    # mint → reserva → verificación → cobro, imprime las f
 | `initialize_config` | [`5KiNDVR5…jqpWU`](https://explorer.solana.com/tx/5KiNDVR5AwASuxXjUvhwdFCCSrUg3inLyYio9tdivuSXFAg8XGUhx5mrNh7MyE1vX55h9Rfrs1hnyxY9aV6jqpWU?cluster=devnet) |
 | `register_merchant` | [`44tFKqX1…6FiJo`](https://explorer.solana.com/tx/44tFKqX1LmqQ4oFHzu8gRyWz3Zb8etnnyWBd2wj1gFSktMBm4i1e9kaYbBz2wZrMY7JiaEm5QdcRbGZaWbf6FiJo?cluster=devnet) |
 | `initialize_reservation` | [`5o3aLSRa…DjUHKfVn`](https://explorer.solana.com/tx/5o3aLSRaC5QaXjX5w9oUcZpMTCcCZvpD5hw133S7iqjuhfc54NaimeFnLuLejY9NMHMLQWkJxTpT4mMEDjUHKfVn?cluster=devnet) |
-| `update_reservation` | `<firma>` |
+| `update_reservation` | [`4Ejj38ap…R8oWEdWE`](https://explorer.solana.com/tx/4Ejj38apvg2AD7tQ7EKaCJSSfAiMb5misMujjiGAFkSt8iPVxT5oN6TJ8xkxHYmRvHpQEsokCCyhhZ68R8oWEdWE?cluster=devnet) |
 | `mark_verified` | `<firma>` |
 | `validate_cashout` | `<firma>` |
 | `cancel_reservation` | `<firma>` |

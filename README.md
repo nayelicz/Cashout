@@ -180,7 +180,7 @@ DEMO_MINT=<mint> yarn demo-cancel:devnet
 | `initialize_reservation` | [`5o3aLSRa…DjUHKfVn`](https://explorer.solana.com/tx/5o3aLSRaC5QaXjX5w9oUcZpMTCcCZvpD5hw133S7iqjuhfc54NaimeFnLuLejY9NMHMLQWkJxTpT4mMEDjUHKfVn?cluster=devnet) |
 | `update_reservation` | [`4Ejj38ap…R8oWEdWE`](https://explorer.solana.com/tx/4Ejj38apvg2AD7tQ7EKaCJSSfAiMb5misMujjiGAFkSt8iPVxT5oN6TJ8xkxHYmRvHpQEsokCCyhhZ68R8oWEdWE?cluster=devnet) |
 | `mark_verified` | [`AtVksme7…gAmpY3z`](https://explorer.solana.com/tx/AtVksme7BPZhkNYUkHKWL6pvdy2WtisBofFS8HF7xY3FHLGNBkQGnW7LU9aCkkk3JF2PbEjTG7FUT2UxgAmpY3z?cluster=devnet) |
-| `validate_cashout` | `<firma>` |
+| `validate_cashout` | [`4HiGKq9Y…MLVf8krd`](https://explorer.solana.com/tx/4HiGKq9Yy9UPx6fmZHyBDWqAf6towaHVrVXWeH7jVaSqJfj2WRbdnFJLgGUrGMMc35FryJVUes9Fg4mFMLVf8krd?cluster=devnet) |
 | `cancel_reservation` | `<firma>` |
 
 Formato de enlace: `https://explorer.solana.com/tx/<firma>?cluster=devnet`

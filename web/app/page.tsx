@@ -21,7 +21,7 @@ const mono = IBM_Plex_Mono({
 });
 
 const programId =
-  typeof idl.address === "string" ? idl.address : "J81oZe4fJT4C1pkxx9F5uXhFmDT1iDUw1FhEY8LWwhe3";
+  typeof idl.address === "string" ? idl.address : "7nrJPFyaGoRgDpGi4hakZ2sX9smCpoTUnLEhm4oxgQrX";
 
 const fg = "#e9ecf3";
 const fgMuted = "rgba(233,236,243,0.58)";

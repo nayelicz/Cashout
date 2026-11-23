@@ -33,7 +33,7 @@ import { getFallbackMerchantPubkey } from "@/lib/fallbackMerchant";
 const PROGRAM_ID = new PublicKey(
   typeof idlJson.address === "string"
     ? idlJson.address
-    : "J81oZe4fJT4C1pkxx9F5uXhFmDT1iDUw1FhEY8LWwhe3"
+    : "7nrJPFyaGoRgDpGi4hakZ2sX9smCpoTUnLEhm4oxgQrX"
 );
 
 // USDC devnet mint

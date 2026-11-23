@@ -6,8 +6,8 @@
 | | |
 |---|---|
 | **Program ID (Devnet)** | `7nrJPFyaGoRgDpGi4hakZ2sX9smCpoTUnLEhm4oxgQrX` · [Explorer](https://explorer.solana.com/address/7nrJPFyaGoRgDpGi4hakZ2sX9smCpoTUnLEhm4oxgQrX?cluster=devnet) |
-| **Nombre para el certificado** | `<Nombre completo>` |
-| **Correo de registro** | `<correo usado en el registro>` |
+| **Nombre para el certificado** | Nayeli Chávez Zamorate |
+| **Correo de registro** | nayelic@gmail.com |
 | **Versión de partida** | Proyecto base (`nayelicz/remesa-liquidez`, rama `feature/tia-updates`) |
 
 ---

@@ -1,0 +1,28 @@
+{
+  "license": "ISC",
+    "scripts": {
+        "lint:fix": "prettier */*.js \"*/**/*{.js,.ts}\" -w",
+        "lint": "prettier */*.js \"*/**/*{.js,.ts}\" --check",
+        "anchor:sync-web": "anchor build && node web/scripts/sync-anchor-artifacts.cjs",
+        "web:build:vercel": "npm run anchor:sync-web && cd web && npm run vercel-build",
+        "register-merchants:devnet": "SOLANA_CLUSTER=devnet node_modules/.bin/ts-node scripts/register-merchants-devnet.ts",
+        "e2e:devnet": "SOLANA_CLUSTER=devnet node_modules/.bin/ts-node scripts/e2e-devnet-remittance.ts",
+        "demo-token:devnet": "SOLANA_CLUSTER=devnet node_modules/.bin/ts-node scripts/demo-token-devnet.ts",
+        "sync-env": "cp .env ./web/.env.local"
+    },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.32.1",
+    "@solana/spl-token": "^0.4.9"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.0.3",
+    "ts-mocha": "^10.0.0",
+    "@types/bn.js": "^5.1.0",
+    "@types/chai": "^4.3.0",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.7.3",
+    "prettier": "^2.6.2"
+  }
+}

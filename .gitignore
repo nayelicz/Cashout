@@ -1,0 +1,14 @@
+.anchor
+.DS_Store
+target
+**/*.rs.bk
+node_modules
+test-ledger
+.yarn
+scripts/.merchants-demo-devnet.json
+
+.env
+.env.local
+web/.env.local
+web/.next
+web/node_modules

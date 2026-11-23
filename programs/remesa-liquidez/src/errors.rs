@@ -1,0 +1,39 @@
+use anchor_lang::prelude::*;
+
+#[error_code]
+pub enum ErrorCode {
+    #[msg("Reservation is not in Active status")]
+    ReservationNotActive,
+    #[msg("Merchant is not whitelisted or does not match the locked merchant")]
+    InvalidMerchant,
+    #[msg("Reservation has already expired")]
+    ReservationExpired,
+    #[msg("Caller is not authorized to cancel this reservation")]
+    UnauthorizedCancellation,
+    #[msg("Sender must wait until expiration to cancel")]
+    WaitUntilExpiration,
+    #[msg("Amount must be greater than zero")]
+    InvalidAmount,
+    #[msg("Expiry duration is invalid")]
+    InvalidExpiry,
+    #[msg("Provided sender does not match the reservation sender")]
+    SenderMismatch,
+    #[msg("Provided receiver does not match the reservation receiver")]
+    ReceiverMismatch,
+    #[msg("Provided mint does not match the reservation mint")]
+    MintMismatch,
+    #[msg("Numeric overflow")]
+    NumericOverflow,
+    #[msg("Receiver has not completed off-chain humanity verification (World ID)")]
+    ReceiverNotVerified,
+    #[msg("Reservation has already been marked as verified")]
+    AlreadyVerified,
+    #[msg("Caller is not the protocol admin")]
+    UnauthorizedAdmin,
+    #[msg("Treasury vault has insufficient funds for the requested withdrawal")]
+    InsufficientTreasury,
+    #[msg("Reservation is already verified and can no longer be edited")]
+    ReservationLocked,
+    #[msg("Nothing to update: provide extend_seconds and/or preferred_merchant")]
+    NothingToUpdate,
+}

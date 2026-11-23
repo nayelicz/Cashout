@@ -168,7 +168,7 @@ DEMO_MINT=<mint> yarn demo-cancel:devnet
 | 6. Aprobar receptor | "Aprobar receptor" | `verificada ✓` |
 | 7. Edición bloqueada | "Extender 1 día" otra vez | Mensaje: *ya fue verificada y no se puede editar* (`ReservationLocked`) |
 | 8. Cobro | `/merchant` con la wallet del comercio | Tokens al comercio, 0.25 % a tesorería; la reserva desaparece de "Mis reservas" (cerrada) |
-| 9. Baja exitosa | crear reserva con vencimiento corto y cancelar después | Reembolso y cierre de cuenta |
+| 9. Baja condicionada | `DEMO_MINT=<mint> yarn demo-cancel:devnet` | Rechazo `WaitUntilExpiration` antes de vencer; después, reembolso y cierre de cuenta |
 
 ## 8. Transacciones verificables (Devnet)
 
@@ -181,7 +181,7 @@ DEMO_MINT=<mint> yarn demo-cancel:devnet
 | `update_reservation` | [`4Ejj38ap…R8oWEdWE`](https://explorer.solana.com/tx/4Ejj38apvg2AD7tQ7EKaCJSSfAiMb5misMujjiGAFkSt8iPVxT5oN6TJ8xkxHYmRvHpQEsokCCyhhZ68R8oWEdWE?cluster=devnet) |
 | `mark_verified` | [`AtVksme7…gAmpY3z`](https://explorer.solana.com/tx/AtVksme7BPZhkNYUkHKWL6pvdy2WtisBofFS8HF7xY3FHLGNBkQGnW7LU9aCkkk3JF2PbEjTG7FUT2UxgAmpY3z?cluster=devnet) |
 | `validate_cashout` | [`4HiGKq9Y…MLVf8krd`](https://explorer.solana.com/tx/4HiGKq9Yy9UPx6fmZHyBDWqAf6towaHVrVXWeH7jVaSqJfj2WRbdnFJLgGUrGMMc35FryJVUes9Fg4mFMLVf8krd?cluster=devnet) |
-| `cancel_reservation` | `<firma>` |
+| `cancel_reservation` | [`3DYC2xiC…BZNbGES`](https://explorer.solana.com/tx/3DYC2xiCBsvohQsqKcnH4mj9AjPvpxcPbBXikRX1Qgnv5P75emNjxkD6W6RRGGW4DV8PBa6M5ZUJojsnoZBNbGES?cluster=devnet) — antes, el intento previo al vencimiento fue rechazado con `WaitUntilExpiration` |
 
 Formato de enlace: `https://explorer.solana.com/tx/<firma>?cluster=devnet`
 

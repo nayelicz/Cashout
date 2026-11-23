@@ -11,7 +11,7 @@ export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
 cargo install --git https://github.com/coral-xyz/anchor avm --force
 avm install 0.32.1 && avm use 0.32.1
 
-npm install -g yarn
+command -v yarn >/dev/null || npm install -g yarn
 yarn install
 (cd web && npm install --legacy-peer-deps)
 

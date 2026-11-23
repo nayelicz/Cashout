@@ -172,7 +172,7 @@ yarn e2e:devnet    # mint → reserva → verificación → cobro, imprime las f
 |---|---|
 | Deploy del programa | [`CshY4sQQ…Mazbe`](https://explorer.solana.com/tx/CshY4sQQUN1AajzMmYTG7GZeetrkCpF7eWxebKXwzJvsBsLo12MK8gvKMCWwyYfzsfQVJ4p2m6XwGJfWn9Mazbe?cluster=devnet) |
 | `initialize_config` | [`5KiNDVR5…jqpWU`](https://explorer.solana.com/tx/5KiNDVR5AwASuxXjUvhwdFCCSrUg3inLyYio9tdivuSXFAg8XGUhx5mrNh7MyE1vX55h9Rfrs1hnyxY9aV6jqpWU?cluster=devnet) |
-| `register_merchant` | `<firma>` |
+| `register_merchant` | [`44tFKqX1…6FiJo`](https://explorer.solana.com/tx/44tFKqX1LmqQ4oFHzu8gRyWz3Zb8etnnyWBd2wj1gFSktMBm4i1e9kaYbBz2wZrMY7JiaEm5QdcRbGZaWbf6FiJo?cluster=devnet) |
 | `initialize_reservation` | `<firma>` |
 | `update_reservation` | `<firma>` |
 | `mark_verified` | `<firma>` |

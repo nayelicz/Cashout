@@ -189,9 +189,13 @@ Salida de la suite de pruebas: [`docs/evidencias/pruebas-localnet.txt`](docs/evi
 
 ### Capturas
 
-| Reserva creada (remitente) | Cobro (comercio) |
+| 1. Reserva creada | 2. Lectura: Mis reservas |
 |---|---|
-| ![Reserva creada](docs/evidencias/02-reserva-creada.png) | ![Cobro del comercio](docs/evidencias/08-cobro-comercio.png) |
+| ![Reserva creada](docs/evidencias/02-reserva-creada.png) | ![Mis reservas](docs/evidencias/03-mis-reservas.png) |
+| **3. Modificación: extender 1 día** | **4. Regla: no cancelar antes de vencer** |
+| ![Extender](docs/evidencias/04-extender.png) | ![Error al cancelar](docs/evidencias/05-error-cancelar.png) |
+| **5. Receptor aprobado** | **6. Cobro del comercio** |
+| ![Aprobada](docs/evidencias/06-aprobada.png) | ![Cobro](docs/evidencias/08-cobro-comercio.png) |
 
 Baja condicionada en Devnet: [`docs/evidencias/cancelacion-devnet.txt`](docs/evidencias/cancelacion-devnet.txt) · Más capturas en [`docs/evidencias/`](docs/evidencias/)
 
